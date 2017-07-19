@@ -1,10 +1,14 @@
 <p id="notice"><%= notice %></p>
 
+    <div class="page-header">
+      <h1>Linky <small>A place to share and post links</small></h1>
+    </div>
 
-<% @links.each do |link| %>
-  <h4><%=link_to link.text, link.url %></h4>
-<% end %>
+  <div class="list-group">
+    <% @links.each do |link| %>
+      <%=link_to link.text, link.url, class: "list-group-item" %>
+    <% end %>
+    </div>
+</div>
 
-<br>
 
-<%= link_to 'Post New Link', new_link_path %>

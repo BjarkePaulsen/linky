@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b0e53331516629.565449774c2d4.png);
+background-size: cover;
+color: #fff;
+    
+}
+
+.page-header h1 {
+    font-family: 'Pacifico';
+    color: #fff;
+    
+}
+.page-header small {
+    font-family: arial ;
+    color: #fff;
+    
+}
+
+.list-group-item {
+    background-color: #e24ddd;
+    
+}
+.list-group a {
+    color: #fff
+}
+.list-group .list-group-item:hover {
+    color: #fff;
+    background-color: #b73eb3;
+}
